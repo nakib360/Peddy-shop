@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="">
+
+    <!-- header -->
+
+    <header class="px-20 py-5">
+        <nav class="flex justify-between items-center ">
+            <div class="flex items-center gap-1">
+                <img class="h-5 w-6" src="images/logo.webp" alt="logo">
+                <p class="text-xl font-bold">Peddy</p>
+            </div>
+            <div class="flex justify-between items-center gap-3 mr-20">
+                <p class="text-sm ">Home</p>
+                <p class="text-sm ">Shop</p>
+                <p class="text-sm ">Contact</p>
+            </div>
+            <img class="px-3 py-3 h-11 w-11 border rounded-full border-black" src="https://img.icons8.com/?size=16&id=43942&format=png" alt="">
+        </nav>
+        <section class="flex flex-col justify-between items-center gap-3 mt-5">
+            <p class="text-xl text-slate-500 font-bold">Bringing Families Together ❤️</p>
+            <p class="text-5xl font-bold text-center">Your Path to Adoption <br>Starts Here</p>
+            <p class="text-sm text-slate-700 text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking <br> at its layout. The point of using Lorem Ipsum is that it has a.</p>
+            <button class="px-5 py-2 bg-[#0E7A81] rounded-xl text-white">View More</button>
+            <img class="w-[500px] mt-5 mb-5" src="images/pet.webp" alt="pet">
+            <p class="text-2xl font-bold">Adopt  Your  Best Friend</p>
+            <p class="text-center text-sm text-slate-600">It is a long established fact that a reader will be distracted by the readable content of a <br> page when looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
+        </section>
+    </header>
+
+    <!-- body -->
+
+    <main class="mt-5 px-20 py-5">
+        <nav class="flex justify-center gap-7 items-center px-10 " id="category-btn"></nav>
+        <div class="flex justify-between items-center mt-5 mb-5">
+            <p class="text-sm font-bold">Best Deal For you</p>
+            <button class="px-5 py-2 bg-[#0E7A81] rounded-[8px] text-sm text-white">Sort by Price</button>
+        </div>
+
+
+        <!-- pets -->
+        <div class="flex justify-between items-center gap-4">
+            <section id="pets" class="grid grid-cols-2 md:grid-cols-3 gap-5 overflow-y-scroll max-h-[800px]">
+
+            </section>
+            <section id="liked-pets" class="w-[500px] border-2 border-black rounded-xl grid grid-cols-2 grid-rows-8 h-[800px] px-5 py-5 gap-2">
+                
+            </section>
+        </div>
+
+    </main>
+
+
+    <!-- footer -->
+
+    <footer class="mt-5 bg-black px-20 py-20 ">
+        <div class="flex justify-between items-center">
+            <div class="flex flex-col">
+                <div class="flex items-center gap-1 mb-5">
+                    <img class="h-5 w-6" src="images/logo.webp" alt="logo">
+                    <p class="text-xl font-bold text-white">Peddy</p>
+                </div>
+
+                <p class="text-sm text-white">Location: av. Washington 165, NY CA 54003</p>
+                <p class="text-sm text-white">Phone: +31 85 964 47 25</p>
+                <p class="text-sm text-white">Email: info@yourdomain.com</p>
+                <p class="text-sm text-white">Openings hours: 9.00 AM - 5.00 PM</p>
+            </div>
+    
+            <div class="flex flex-col">
+                <p class="text-sm text-white font-bold mb-5">Useful Links</p>
+                <p class="text-sm text-white">Home</p>
+                <p class="text-sm text-white">About Us</p>
+                <p class="text-sm text-white">Animals</p>
+                <p class="text-sm text-white">Foundation</p>
+                <p class="text-sm text-white">Contact</p>
+            </div>
+    
+            <div class="flex flex-col gap-2">
+                <p class="text-sm text-white font-bold mb-5">Drop a Message</p>
+                <input class="rounded-xl px-5 py-3 bg-slate-600 focus:outline-none text-white" type="text" placeholder="Enter your email">
+                <button onclick="" class="rounded-xl px-5 py-3 text-white bg-[#0E7A81]">Subscribe</button>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
